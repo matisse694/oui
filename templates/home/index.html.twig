@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+
+<!-- Présentation -->
+<section class="text-center mb-5">
+    <h1 class="fw-bold">NEAU Matisse</h1>
+    <h4 class="text-muted">Groupe TP A2</h4>
+
+    <p class="mt-4">
+        Étudiant en BUT Réseaux et Télécommunications, passionné par les technologies numériques et motivé à construire mon futur professionnel.
+    </p>
+</section>
+
+<!-- Container “Pour en savoir plus” -->
+<section class="card shadow-lg p-4 text-center">
+    <h3 class="card-title">Pour en savoir plus</h3>
+    <p class="card-text">
+        Découvrez mes loisirs, projets et ambitions.
+    </p>
+    <a href="{{ path('about') }}" class="btn btn-primary mt-3">
+        Découvrir
+    </a>
+</section>
+
+{% endblock %}

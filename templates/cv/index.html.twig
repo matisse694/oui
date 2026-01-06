@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mon CV{% endblock %}
+
+{% block body %}
+<header class="mb-5">
+    <h1>Technicien Réseaux et Télécommunications</h1>
+</header>
+
+<section class="mb-4">
+    <h3>Formations</h3>
+    <ul class="list-group">
+        <li class="list-group-item">BUT Réseaux et Télécommunications – IUT</li>
+        <li class="list-group-item">Baccalauréat</li>
+    </ul>
+</section>
+
+{# Section "Expériences Professionnelles" supprimée #}
+
+<section>
+    <h3>Compétences</h3>
+    <span class="badge bg-primary">Réseaux</span>
+    <span class="badge bg-success">Linux</span>
+    <span class="badge bg-info">Symfony</span>
+    <span class="badge bg-warning text-dark">HTML / CSS</span>
+</section>
+{% endblock %}
