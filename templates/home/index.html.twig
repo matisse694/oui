@@ -1,28 +1,27 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Accueil{% endblock %}
+{% block title %}Home{% endblock %}
 
 {% block body %}
 
-<!-- Présentation -->
+<!-- Presentation -->
 <section class="text-center mb-5">
     <h1 class="fw-bold">NEAU Matisse</h1>
-    <h4 class="text-muted">Groupe TP A2</h4>
+    <h4 class="text-muted">Group TP A2</h4>
 
     <p class="mt-4">
-        Étudiant en BUT Réseaux et Télécommunications, passionné par les technologies numériques et motivé à construire mon futur professionnel.
+        Student in BUT Networks and Telecommunications, passionate about digital technologies and motivated to build my professional future.
     </p>
 </section>
 
-<!-- Container “Pour en savoir plus” -->
+<!-- “Learn more” container -->
 <section class="card shadow-lg p-4 text-center">
-    <h3 class="card-title">Pour en savoir plus</h3>
+    <h3 class="card-title">Learn more</h3>
     <p class="card-text">
-        Découvrez mes loisirs, projets et ambitions.
+        Discover my hobbies, projects, and ambitions.
     </p>
     <a href="{{ path('about') }}" class="btn btn-primary mt-3">
-        Découvrir
+        Discover
     </a>
 </section>
-
 {% endblock %}
