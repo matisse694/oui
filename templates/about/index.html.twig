@@ -8,9 +8,42 @@
 
 <section class="mt-4">
     <h3>Mes passions</h3>
-    <p>
-        Je suis passionné par les jeux vidéo et l'informatique. 
-        J'aime également pratiquer la boxe et le basket, ainsi que suivre les sports automobiles.
-    </p>
+    <ul class="list-unstyled">
+        <li class="d-flex align-items-center mb-4">
+            <img src="{{ asset('images/jeux-video.jpg') }}" alt="Jeux Vidéo" class="img-fluid rounded shadow" style="width: 200px; height: auto; margin-right: 20px;">
+            <div>
+                <h5>Jeux Vidéo</h5>
+                <p>Je suis passionné par les jeux vidéo.</p>
+            </div>
+        </li>
+        <li class="d-flex align-items-center mb-4">
+            <img src="{{ asset('images/informatique.jpg') }}" alt="Informatique" class="img-fluid rounded shadow" style="width: 200px; height: auto; margin-right: 20px;">
+            <div>
+                <h5>Informatique</h5>
+                <p>J'aime l'informatique et tout ce qui touche à la technologie.</p>
+            </div>
+        </li>
+        <li class="d-flex align-items-center mb-4">
+            <img src="{{ asset('images/boxe.jpg') }}" alt="Boxe" class="img-fluid rounded shadow" style="width: 200px; height: auto; margin-right: 20px;">
+            <div>
+                <h5>Boxe</h5>
+                <p>Je pratique la boxe.</p>
+            </div>
+        </li>
+        <li class="d-flex align-items-center mb-4">
+            <img src="{{ asset('images/basket.jpg') }}" alt="Basketball" class="img-fluid rounded shadow" style="width: 200px; height: auto; margin-right: 20px;">
+            <div>
+                <h5>Basket</h5>
+                <p>J'aime jouer au basket.</p>
+            </div>
+        </li>
+        <li class="d-flex align-items-center mb-4">
+            <img src="{{ asset('images/sports-automobiles.jpg') }}" alt="Sports automobiles" class="img-fluid rounded shadow" style="width: 200px; height: auto; margin-right: 20px;">
+            <div>
+                <h5>Sports automobiles</h5>
+                <p>Je suis passionné par les sports automobiles.</p>
+            </div>
+        </li>
+    </ul>
 </section>
 {% endblock %}
