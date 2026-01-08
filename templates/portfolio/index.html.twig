@@ -4,9 +4,43 @@
 
 {% block body %}
 <h1>Mon Portfolio</h1>
-<p>Vous pouvez télécharger mon portfolio complet au format PDF :</p>
 
-<a href="{{ asset('files/mon_portfolio.pdf') }}" class="btn btn-primary" target="_blank">
-    Télécharger le PDF
-</a>
+<p>Voici un aperçu de mes compétences principales :</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Compétence</th>
+            <th>Description</th>
+            <th>Document preuve</th>
+            <th>Analyse reflective</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Administration des réseaux</td>
+            <td>Configuration de LAN, adressage IP, dépannage de base</td>
+            <td><a href="https://docs.google.com/document/d/1TJIaQ7CmAkPl-F3xsg5fOou3PcMcbWsg/edit" target="_blank">Lien Doc</a></td>
+            <td><a href="https://docs.google.com/document/d/1Z77_CPqwNQEpFKV7jq27TZbItDrh7nPd/edit" target="_blank">Lien Analyse</a></td>
+        </tr>
+        <tr>
+            <td>Systèmes d'exploitation</td>
+            <td>Installation et utilisation de postes clients Windows/Linux</td>
+            <td><a href="https://docs.google.com/document/d/1hOPznxLyVHS_d7aqJZJs0TJG_Zf1BRNd/edit" target="_blank">Lien Doc</a></td>
+            <td><a href="https://docs.google.com/document/d/1DC0ILXUxrXqZDlchXJQ619LEUJZYN7zX/edit" target="_blank">Lien Analyse</a></td>
+        </tr>
+        <tr>
+            <td>Traduire un algorithme</td>
+            <td>Traduire un algorithme dans un langage et pour un environnement donné</td>
+            <td><a href="https://docs.google.com/document/d/1r-L1KFBOdV-HmJ7MvsAJIi5gY_OpfJjN/edit" target="_blank">Lien Doc</a></td>
+            <td><a href="https://docs.google.com/document/d/1VO-9ui3aTpBtPg3sQYZkOL8yd5gMhsbM/edit" target="_blank">Lien Analyse</a></td>
+        </tr>
+        <tr>
+            <td>   Lire, exécuter, corriger et modifier un programme</td>
+            <td>Compétence adaptée : lecture et modification de programmes existants</td>
+            <td><a href="https://docs.google.com/document/d/1zoe0dK5E1491-cFNprzkw5NJVWaLS_pv/edit" target="_blank">Lien Doc</a></td>
+            <td><a href="https://docs.google.com/document/d/1p4pWG5aHXVjs5wMI1rM9CT60ogBq27Ko/edit" target="_blank">Lien Analyse</a></td>
+        </tr>
+    </tbody>
+</table>
 {% endblock %}

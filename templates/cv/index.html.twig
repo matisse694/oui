@@ -3,31 +3,65 @@
 {% block title %}Mon CV{% endblock %}
 
 {% block body %}
-<header class="mb-5">
-    <h1>Technicien Réseaux et Télécommunications</h1>
-</header>
 
-<section class="mb-4">
-    <h3>Formations</h3>
-    <ul class="list-group">
-        <li class="list-group-item">BUT Réseaux et Télécommunications – IUT</li>
-        <li class="list-group-item">Baccalauréat</li>
-    </ul>
-</section>
+<div class="card shadow-sm p-4">
 
-<section class="mb-4">
-    <h3>Expériences Professionnelles</h3>
-    <ul class="list-group">
-        <li class="list-group-item">Stage en Gendarmerie</li>
-        <li class="list-group-item">Stage en tant qu’Ingénieur en Bâtiments</li>
-    </ul>
-</section>
+    <!-- EN-TÊTE -->
+    <header class="text-center mb-5">
+        <h1 class="fw-bold">Technicien Réseaux et Télécommunications</h1>
+        <p class="text-muted">
+            Poste dans les réseaux et télécommunications de mes rêves
+        </p>
+    </header>
 
-<section>
-    <h3>Compétences</h3>
-    <span class="badge bg-primary">Réseaux</span>
-    <span class="badge bg-success">Linux</span>
-    <span class="badge bg-info">Symfony</span>
-    <span class="badge bg-warning text-dark">HTML / CSS</span>
-</section>
+    <!-- FORMATIONS -->
+    <section class="mb-4">
+        <h3 class="border-bottom pb-2 mb-3">🎓 Formations</h3>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                <strong>BUT Réseaux et Télécommunications</strong> – IUT
+            </li>
+            <li class="list-group-item">
+                <strong>Baccalauréat</strong>
+            </li>
+        </ul>
+    </section>
+
+    <!-- EXPÉRIENCES PROFESSIONNELLES -->
+    <section class="mb-4">
+        <h3 class="border-bottom pb-2 mb-3">💼 Expériences Professionnelles</h3>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                <strong>Stage en Gendarmerie</strong><br>
+                <span class="text-muted">
+                    Découverte des systèmes informatiques, réseaux et sécurité
+                </span>
+            </li>
+            <li class="list-group-item">
+                <strong>Stage en Ingénierie du Bâtiment</strong><br>
+                <span class="text-muted">
+                    Travail technique, rigueur, analyse et gestion de projets
+                </span>
+            </li>
+        </ul>
+    </section>
+
+    <!-- COMPÉTENCES -->
+    <section>
+        <h3 class="border-bottom pb-2 mb-3">🛠️ Compétences</h3>
+
+        <div class="mb-2">
+            <span class="badge bg-primary me-1">Réseaux</span>
+            <span class="badge bg-success me-1">Linux</span>
+            <span class="badge bg-info me-1">Administration système</span>
+            <span class="badge bg-warning text-dark me-1">Sécurité réseau</span>
+            <span class="badge bg-secondary me-1">Câblage & matériel</span>
+            <span class="badge bg-dark me-1">Virtualisation</span>
+            <span class="badge bg-primary me-1">HTML / CSS</span>
+            <span class="badge bg-info me-1">Symfony</span>
+        </div>
+    </section>
+
+</div>
+
 {% endblock %}

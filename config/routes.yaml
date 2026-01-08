@@ -18,3 +18,8 @@ about:
 cv:
     path: /cv
     controller: App\Controller\CurriculumvitaeController::index
+
+# Route de la page Portfolio
+portfolio:
+    path: /portfolio
+    controller: App\Controller\PortfolioController::index
