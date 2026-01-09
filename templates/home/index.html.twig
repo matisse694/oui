@@ -4,24 +4,29 @@
 
 {% block body %}
 
-<!-- Presentation -->
-<section class="text-center mb-5">
-    <h1 class="fw-bold">NEAU Matisse</h1>
-    <h4 class="text-muted">Group TP A2</h4>
+<div class="bg-light text-dark min-vh-100 p-5">
 
-    <p class="mt-4">
-        Student in BUT Networks and Telecommunications, passionate about digital technologies and motivated to build my professional future.
-    </p>
-</section>
+    <!-- Section présentation -->
+    <section class="text-center mb-5">
+        <h1 class="fw-bold">NEAU Matisse</h1>
+        <h4 class="text-secondary">Group TP A2</h4>
 
-<!-- “Learn more” container -->
-<section class="card shadow-lg p-4 text-center">
-    <h3 class="card-title">Learn more</h3>
-    <p class="card-text">
-        Discover my hobbies, projects, and ambitions.
-    </p>
-    <a href="{{ path('about') }}" class="btn btn-primary mt-3">
-        Discover
-    </a>
-</section>
+        <p class="mt-4">
+            Student in BUT Networks and Telecommunications, passionate about digital technologies and motivated to build my professional future.
+        </p>
+    </section>
+    
+    <!-- Section carte avec bouton -->
+    <section class="card shadow-lg p-4 text-center text-dark mx-auto" style="max-width: 500px; background-color: #f8f9fa;">
+        <h3 class="card-title">Learn more</h3>
+        <p class="card-text">
+            Discover my hobbies, projects, and ambitions.
+        </p>
+        <a href="{{ path('about') }}" class="btn btn-primary mt-3">
+            Discover
+        </a>
+    </section>
+
+</div>
+
 {% endblock %}
